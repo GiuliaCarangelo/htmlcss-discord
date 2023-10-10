@@ -109,10 +109,9 @@ section.navigation{
 }
 
 
-/* header section.navigation > div{
-    /* height: 40px; */
-    /* background-color: goldenrod; */
-}
+header section.navigation > div{
+    height: 40px;
+} 
 
 header section.navigation div.brand,
 header section.navigation nav,
@@ -123,7 +122,7 @@ header section.navigation div.login{
 
 section.navigation div.brand,
 section.navigation div.login{
-    width: 20%;
+    width: 8%;
 }
 
 section.navigation  nav{
