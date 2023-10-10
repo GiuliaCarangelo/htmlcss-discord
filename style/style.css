@@ -18,11 +18,19 @@ body{
 .flex-j-center{
     display: flex;
     justify-content: center;
+    font-weight: 600;
+    color: white;
 }
 
 .flex-j-between{
     display: flex;
     justify-content: space-between;
+}
+
+.login{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
 }
 
 .container{
@@ -37,9 +45,9 @@ body{
     margin: 0 auto;
 }
 
-.dotted-test{
+/* .dotted-test{
     border: 2px dashed black;
-}
+} */
 
 .columns{
     padding: 3rem 0;
@@ -82,8 +90,6 @@ body{
     width: calc(100% / 4);
 }
 
-
-
 .bg-white{
     background-color: white;
 }
@@ -99,13 +105,13 @@ header{
 
 section.navigation{
     padding: .8rem 0;
-    background-color: #7ffed3;
+    background-color: #3161e0;
 }
 
 
-header section.navigation > div{
+/* header section.navigation > div{
     /* height: 40px; */
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
 }
 
 header section.navigation div.brand,
@@ -130,14 +136,13 @@ section.navigation  nav ul{
 
 section.navigation  nav ul li{
     /* display: inline-block; */
-    padding: 0 .25rem;
+    padding: 0 1.5rem;
 }
-
 
 section.navigation div.login{
-    text-align: right;
+    text-align: center;
+    align-content: center;
 }
-
 
 section#jumbo{
     /* height: 300px; */
